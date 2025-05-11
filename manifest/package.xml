@@ -13,5 +13,9 @@
         <members>Contact</members>
         <name>CustomObject</name>
     </types>
+     <types>
+         <members>Contact.Account_is_Required_Field</members>
+         <name>ValidationRule</name>
+     </types>
     <version>63.0</version>
 </Package>
