@@ -13,8 +13,8 @@
 
 public with sharing class ContactTriggerHandler {
     /**
-     * @Description : This method is used to update the related account when a contact is updated
-     * @param newContactList : List of new Contact records
+     * @Description : This method is used to update the related account
+     * @param newContactList : List of new Contact records or Old Contact records which are deleted
      * @param oldContactMap : Map of old Contact records
      */
     public static void updateRelatedAccount(List<Contact> newContactList, Map<Id, Contact> oldContactMap) {
